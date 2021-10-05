@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="48x48"
+			href="https://i.imgur.com/LmhodeL.png"
+		/>
+		<link rel="stylesheet" href="/app/scss/styles.css" />
+		<script
+			src="https://kit.fontawesome.com/06e8085675.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Tacocat Tacos</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="overlay has-fade"></div>
+			<nav class="flex flex-jc-sb flex-ai-c">
+				<img
+					src="https://i.imgur.com/K7746Q3.png"
+					class="header__logo"
+					alt="Tacocat"
+				/>
+				<a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+
+				<div class="header__links hide-for-tablet">
+					<a href="#">Menu</a>
+					<a href="#">Catering</a>
+					<a href="#">About Us</a>
+					<a href="#">Careers</a>
+					<a href="#">Locations</a>
+				</div>
+
+				<a class="btnLogin hide-for-tablet">Log In</a>
+			</nav>
+			<div class="header__menu has-fade hide-for-desktop">
+				<a href="#">Menu</a>
+				<a href="##">Catering</a>
+				<a href="#">About Us</a>
+				<a href="#">Careers</a>
+				<a href="#">Locations</a>
+			</div>
+		</header>
+		<div class="carousel">
+			<div class="carousel-item">
+				<div class="red">
+					<img
+						class="hide-for-tablet"
+						src="https://i.imgur.com/sfb5mhN.png"
+						alt=""
+					/>
+					<img
+						class="hide-for-desktop"
+						src="https://i.imgur.com/TxvcDNV.png"
+						alt=""
+					/>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="green">
+					<img
+						class="hide-for-tablet"
+						src="https://i.imgur.com/jlGOmqH.png"
+						alt=""
+					/>
+					<img
+						class="hide-for-desktop"
+						src="https://i.imgur.com/zxAvlHv.png"
+						alt=""
+					/>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="yellow">
+					<img
+						class="hide-for-tablet"
+						src="https://i.imgur.com/pqofCPc.png"
+						alt=""
+					/>
+					<img
+						class="hide-for-desktop"
+						src="https://i.imgur.com/FUnTQXc.png"
+						alt=""
+					/>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper_mid">
+			<div class="our_mission flex flex-jc-sa flex-ai-c expand-for-tablet">
+				<div class="words_mid expand-for-tablet">
+					<img src="https://i.imgur.com/Zf3njl1.jpg" /><br />
+					<p>
+						Every dish is hand prepared by one of our taco technicians the
+						moment you order. This guarantees that you receieve the highest
+						quality tacos that you will find anywhere.
+					</p>
+				</div>
+				<div class="words_mid">
+					<img src="https://i.imgur.com/9RHlPrO.jpg" /><br />
+					<p>
+						We only use real, raw ingredients, nothing pre-packaged. Our chefs
+						prepare all of the ingredients daily ensuring that you receieve only
+						the freshest most delicious food possible.
+					</p>
+				</div>
+				<div class="words_mid">
+					<img src="https://i.imgur.com/LrtXJsy.jpg" /><br />
+					<p>
+						With over 20 varieties of tacos you are sure to find a favorite. Or
+						for those who are brave enough, we offer a build-your-own option so
+						you can fabricate your own ultimate taco.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper_bot flex flex-jc-c flex-ai-c">
+			<div class="wb_info flex flex-ai-c flex-jc-c">
+				<div>
+					<h1>Find a location</h1>
+				</div>
+				<div>
+					<input type="text" name="location" id="location" />
+					<a href="#"><i class="fas fa-search-location"></i></a>
+				</div>
+			</div>
+			<img src="https://i.imgur.com/1RziyyP.png" alt="Location map" />
+		</div>
+		<div class="footer">
+			<div class="social_icons">
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+			</div>
+			<div class="bottom_info">
+				<ul>
+					<span>Corporate</span>
+					<a href="#"><li>About Us</li></a>
+					<a href="#"><li>Media</li></a>
+					<a href="#"><li>Careers</li></a>
+					<a href="#"><li>Franchise</li></a>
+				</ul>
+				<ul>
+					<span>Explore</span>
+					<a href="#"><li>Shop</li></a>
+					<a href="#"><li>Gift Cards</li></a>
+					<a href="#"><li>Talk to Us</li></a>
+					<a href="#"><li>Cookie Policy</li></a>
+				</ul>
+				<ul>
+					<span>Our Food</span>
+					<a href="#"><li>Nutritional Info</li></a>
+					<a href="#"><li>Download Menu</li></a>
+					<a href="#"><li>Our Food Philosophy</li></a>
+				</ul>
+			</div>
+		</div>
+
+		<script src="/app/js/main.js"></script>
+	</body>
+</html>

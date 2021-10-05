@@ -1,0 +1,21 @@
+.wrapper_bot {
+	flex-direction: column;
+	background-color: $transGreen;
+	.wb_info {
+		flex-direction: column;
+		i {
+			color: $transGray;
+		}
+		h1 {
+			color: $white;
+			font-size: 3rem;
+			font-family: "Luckiest Guy", cursive;
+			margin-bottom: 5px;
+		}
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

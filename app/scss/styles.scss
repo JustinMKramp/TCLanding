@@ -1,0 +1,13 @@
+@import "variables";
+@import "mixins";
+@import "animations";
+@import "globals";
+@import "header";
+@import "slideshow";
+@import "wrappermid";
+@import "wrapperbot";
+@import "footer";
+
+body {
+	background: url("https://i.imgur.com/YiF0C8c.jpg");
+}

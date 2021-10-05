@@ -1,0 +1,108 @@
+.header {
+	&.open {
+		//Hamburger Animations
+		.overlay {
+			z-index: 1000000;
+			animation: fade-in 0.3s ease-in-out forwards;
+		}
+		.header__toggle {
+			> span:first-child {
+				transform: rotate(45deg);
+				transform-origin: top left;
+			}
+			> span:nth-child(2) {
+				opacity: 0;
+			}
+			> span:last-child {
+				transform: rotate(-45deg);
+				transform-origin: bottom left;
+			}
+		}
+		.header___menu {
+			animation: fade-in 0.3s ease-in-out forwards;
+		}
+	}
+
+	.overlay {
+		position: absolute;
+		top: 138px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		height: 100vh;
+		background: $transGray;
+		background-image: linear-gradient($transGray, transparent);
+	}
+
+	nav {
+		background: $transBlack;
+		padding: 5px 24px;
+	}
+	&__logo {
+		max-width: 90px;
+	}
+
+	&__toggle {
+		> span {
+			display: block;
+			width: 26px;
+			height: 3px;
+			background-color: $white;
+			transition: all 0.3s ease-in-out;
+			&:not(:last-child) {
+				margin-bottom: 6px;
+			}
+		}
+	}
+
+	&__menu {
+		background: $white;
+		width: 95%;
+		padding: 1.625rem;
+		position: absolute;
+		left: 2.5%;
+		top: 20%;
+		border-radius: 4px;
+		z-index: 1000001;
+		a {
+			display: block;
+			color: $darkGreen;
+			font-weight: 600;
+			padding: 0.625rem;
+			text-align: center;
+		}
+	}
+
+	&__links {
+		align-self: flex-end;
+		a {
+			font-size: 1.4rem;
+			font-family: "Luckiest Guy", cursive;
+			color: $white;
+			padding: 0 5px;
+			transition: color 0.3s ease-in-out;
+			&:hover {
+				color: $green;
+				background: $offYellow;
+				padding-top: 5px;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+		}
+	}
+	.btnLogin {
+		font-size: 1.5rem;
+		background: $red;
+		color: $white;
+		font-family: "Luckiest Guy", cursive;
+		font-weight: 600;
+		padding: 8px 16px 0;
+		border-radius: 15%;
+		border: solid 2px $white;
+		transition: color 0.3s ease-in-out;
+		&:hover {
+			color: $offYellow;
+			cursor: pointer;
+		}
+	}
+}

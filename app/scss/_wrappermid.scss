@@ -1,0 +1,22 @@
+.wrapper_mid {
+	.our_mission {
+		width: 100%;
+		background: #828282ef;
+		.words_mid {
+			max-width: 400px;
+			text-align: center;
+			padding: 15px 0;
+
+			img {
+				max-width: 90%;
+				border-radius: 5px;
+			}
+			p {
+				color: $white;
+				padding: 0 25px;
+				font-size: 1.3rem;
+				font-family: "Oswald", sans-serif;
+			}
+		}
+	}
+}
