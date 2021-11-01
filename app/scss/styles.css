@@ -178,7 +178,7 @@ a {
           transform-origin: bottom left;
 }
 
-.header.open .header___menu {
+.header.open .header__menu {
   -webkit-animation: fade-in 0.3s ease-in-out forwards;
           animation: fade-in 0.3s ease-in-out forwards;
 }
